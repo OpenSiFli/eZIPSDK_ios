@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/ImageConvertor.h</key>
 		<data>
-		TsrB98J47ibl6Sj/6dfFk9L5X6I=
+		0x+U2fVFSOwN1unwtoXUR6YrBaI=
 		</data>
 		<key>Headers/eZIPSDK.h</key>
 		<data>
-		0ryzN6kcIHj36S/UxLMdMEhRV2Y=
+		bwYKl0WNsF/myg6DdL6n1x1O4cE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,22 +27,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TsrB98J47ibl6Sj/6dfFk9L5X6I=
+			0x+U2fVFSOwN1unwtoXUR6YrBaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmKDkp1EP/AOSyV1Wu3BVuoa7eTsoECqSvRCdYn+lRU=
+			6LsFduELXizx45IFLP5FTatt/HgskEOjgeWW/OZjq2w=
 			</data>
 		</dict>
 		<key>Headers/eZIPSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0ryzN6kcIHj36S/UxLMdMEhRV2Y=
+			bwYKl0WNsF/myg6DdL6n1x1O4cE=
 			</data>
 			<key>hash2</key>
 			<data>
-			A/vp0uWP8cBD623qJNYTr5hMUf+1okjCog87HGj4sZI=
+			Z4Yx2vXB2g9v4i/cgYdq4n5jpKR5o6yAK96/UqZprT8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
