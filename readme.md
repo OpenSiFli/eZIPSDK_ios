@@ -61,3 +61,4 @@ https://github.com/OpenSiFli/eZIPSDK_ios.git
 - 2.4.1 EBinFromPngSequence 增加interval
 - 2.4.2 ezip_bin_type = 0时设置g_pal_support = 0
 - 2.4.3 支持apng
+- 2.4.4 支持arm64模拟器
