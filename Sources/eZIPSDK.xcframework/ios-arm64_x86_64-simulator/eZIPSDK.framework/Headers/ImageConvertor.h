@@ -17,7 +17,8 @@ typedef NS_ENUM(NSUInteger, SFBoardType) {
 ///2.4.2 ezip_bin_type = 0时设置g_pal_support = 0
 ///2.4.3 支持apng
 ///2.4.4 支持arm64模拟器
-static NSString * const kSDKVersion = @"2.4.4";
+///2.4.5 cocoapod发布打包为static library
+static NSString * const kSDKVersion = @"2.4.5";
 @interface ImageConvertor : NSObject
 
 
@@ -34,7 +35,7 @@ static NSString * const kSDKVersion = @"2.4.4";
 /// @param eColor 颜色字符串 color type as below: rgb565, rgb565A, rbg888, rgb888A
 /// @param eType eizp类型 0 keep original alpha channel;1 no alpha chanel
 /// @param binType bin类型 0 to support rotation; 1 for no rotation
-/// @param boardType 主板类型 @See SFBoardType 0:55x 1:56x  2:52x
+/// @param boardType 主板类型 @See SFBoardType 0:55x 1:56x  2:52x; 58x使用56x
 /// @return ezip or apng result, nil for fail
 +(nullable NSData *)EBinFromPNGData:(NSData *)pngData
                              eColor:(NSString *)eColor

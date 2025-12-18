@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "eZIPSDK"
-  spec.version      = "2.4.4"
+  spec.version      = "2.4.5"
   spec.summary      = "eZIPSDK.思澈 png 转ezip"
 
   # This description is used to generate tags and improve search results.
@@ -125,7 +125,7 @@ Pod::Spec.new do |spec|
  
 
   # spec.library   = "iconv"
-   # spec.libraries = "iconv","z"
+   spec.libraries = "c++"
    spec.vendored_frameworks = 'Sources/eZIPSDK.xcframework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -135,6 +135,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
    spec.requires_arc = true
+   spec.static_framework = true
 
    spec.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' } 
   # spec.dependency "JSONKit", "~> 1.4"

@@ -11,7 +11,12 @@
 ```
 https://github.com/OpenSiFli/eZIPSDK_ios.git
 ```
-- 最新版本 2.4.3
+
+- CocoaPod 方式
+
+```bash
+ pod 'eZIPSDK','2.4.5'
+```
 
 ## 2.接口定义
 
@@ -62,3 +67,4 @@ https://github.com/OpenSiFli/eZIPSDK_ios.git
 - 2.4.2 ezip_bin_type = 0时设置g_pal_support = 0
 - 2.4.3 支持apng
 - 2.4.4 支持arm64模拟器
+-  2.4.5 使用静态库发布 
